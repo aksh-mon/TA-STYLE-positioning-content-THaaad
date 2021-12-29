@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;			
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+ q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	
+}.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+
+body{text-align: center;}
+
+img{position: relative;
+top: -170px;}
+
+.bigbox{width: 100rem;
+	display: inline-block;
+background-color: grey;}
+
+
+.smallbox{width: 50rem;
+	height: 37rem;
+	background-color: white;
+display: inline-block;}
+
+.heading{ font-size: 45px;}
+
+.heading2{font-size: 28px;
+position: relative;
+right:48px;
+top: 20px;
+color: black;}
+
+.text{display: inline-block;}
+.para1{
+text-align:left;
+position: relative;
+left: 80px;
+top: -175px;
+padding: 2px;
+font-size: 12px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.para2{
+	text-align: left;
+	position: relative;
+	left: 80px;
+	top: -160px;
+	padding: 2px;
+	font-size: 12px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.para3{
+		text-align: left;
+		position: relative;
+		left: 120px;
+		top: -145px;
+		font-size: 12px;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.para4{
+		text-align: left;
+		position: relative;
+		left: 80px;
+		top: -120px;
+		padding: 2px;
+		font-size: 12px;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cat{position: relative;
+top: -180px;}
+.lefttext{text-align: left;
+position: relative;
+left: 50px;
+top: 38px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 13px;
+text-transform: capitalize;}
+.righttext{ 
+	color: black;
+text-align: left;
+position: relative;
+left: 600px;
+bottom: 30px;
+font-size: 15px;
+font-family: 'Times New Roman', Times, serif;
+}
